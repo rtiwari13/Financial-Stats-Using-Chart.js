@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+ 
+        <div class="blue"></div>
+        <div class="white">
+            <img src="arrow.png" alt="">
+            <p id="fin">Financial management</p>
+        </div>
+
+        <div class="rowOne" >
+            
+              
+                <div class=" column grid-container" >
+                    <div class="grid-item text">
+                        <div class="stats">
+                            <h3>Total Accounts Receivable</h3>
+                            <p id="stat1">$6,621,280</p></div>
+                        </div>
+                    <div class="grid-item text">
+                        <div class="stats"> <h3>Total Accounts Payable</h3>
+                            <p id="stat2">$ 1,630,270</p></div>
+                       
+                    </div>
+                    <div class="grid-item text">
+                        <div class="stats"> <h3>Equity Ratio</h3>
+                            <p id="stat3">75.38%</p></div>
+                        
+                    </div>
+                    <div class="grid-item text">
+                        <div class="stats"> <h3>Debt Equity</h3>
+                            <p id="stat4">1.10%</p></div></div>
+
+                    <div class="grid-item text"><canvas id="myChart"></canvas></div>
+                    <div class="grid-item text"><canvas id="myChart2"></canvas></div>
+                    <div class="grid-item text"><canvas id="myChart3"></canvas></div>
+                    <div class="grid-item text"><canvas id="myChart4"></canvas></div>
+                  </div>
+                  
+
+            <div class="column " id="bg">
+
+                <canvas id="accountBarChart"></canvas>
+
+            </div>
+          </div>
+          
+
+
+          <div class="rowTwo">
+            <div class="column" id="bg">
+                    <canvas id="myLineChart"></canvas>
+                
+              
+            </div>
+            <div class="column" id="bg">
+                    <canvas id="myBarChart"></canvas>
+                
+            </div>
+          </div>
+          
+
+
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
